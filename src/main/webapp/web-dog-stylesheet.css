@@ -1,0 +1,35 @@
+/*
+ *  Mike Cordon - mrcordon@dmacc.com
+ *  CIS175 Java 2
+ *  Module 5 Assignment - JPA/Servlet/JSP
+ *  FILE: web-dog-stylesheet.css
+	02/15/24
+	
+	Description:  A very simple style sheet to add some
+				  visually pleasing elements to the pages
+ */
+
+body {
+	background-color: cadetblue;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	color: blue;
+}
+
+form {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	
+}
+
+table {
+	text-align: left;
+}

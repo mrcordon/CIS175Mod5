@@ -1,0 +1,32 @@
+<!-- Mike Cordon - mrcordon@dmacc.com
+	 CIS175 Java 2
+	 Module 5 Assignment - JPA/Servlet/JSP
+	 FILE: index.html
+	 02/15/24 
+	 
+	 Description:  The homepage for a dog database.  Dogs can be added to
+	               the database on this page as well. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dog Database</title>
+<link rel="stylesheet" href="web-dog-stylesheet.css">
+</head>
+<body>
+	<img src="dog-banner-image.png" alt="dogs">
+	<br />
+	<h1>Dog Database</h1><br /><br />
+	<h3>Add a Dog to the Database</h3>
+	<form action="addDogServlet" method="post">
+		Name:<input type="text" name="name"><br />
+		Breed:<input type="text" name="breed"><br />
+		Color :<input type="text" name="color"><br />
+		<input type="submit" value="Add Dog"><br /><br />		
+		<a href="viewAllDogsServlet">View the complete List</a>	
+	</form><br />	
+	<br /><br /><br /><br />
+	<img src="dog-banner-2.png" alt="more dogs">
+</body>
+</html>
